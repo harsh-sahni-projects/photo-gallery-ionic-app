@@ -13,3 +13,15 @@ This is a photo taking application. You can do the following:
 This is a PWA (Progressive Web App) which can run both on android and iOS. 
 
 I have used Ionic and Capacitor frameworks to build this app.
+
+# Screehshots
+
+![Main page](/public/assets/app-screenshots/main.jpg)
+
+![Delete photo](/public/assets/app-screenshots/delete-photo.jpg)
+
+![Empty page](/public/assets/app-screenshots/empty-page.jpg)
+
+![Camera](/public/assets/app-screenshots/camera-open.jpg)
+
+![Exit](/public/assets/app-screenshots/exit.jpg)

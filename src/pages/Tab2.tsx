@@ -30,6 +30,12 @@ const Tab2: React.FC = () => {
               ))
             }
           </IonRow>
+          {
+            (!photos.length) &&
+            <div className="container">
+              <p>Click camera button below to capture photo</p>
+            </div>
+          }
         </IonGrid>
 
         <IonFab vertical="bottom" horizontal="center" slot="fixed">
