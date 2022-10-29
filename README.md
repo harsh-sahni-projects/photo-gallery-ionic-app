@@ -4,7 +4,7 @@ This is a photo taking application. You can do the following:
 
 1. Click photo using Camera API of android/iOS/webcam.
 
-2. Save shoto and show the photos in the app itself.
+2. Save photo and show the photos in the app itself.
 
 3. Delete selected photos.
 
