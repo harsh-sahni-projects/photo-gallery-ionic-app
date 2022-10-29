@@ -16,12 +16,24 @@ I have used Ionic and Capacitor frameworks to build this app.
 
 # Screehshots
 
-![Main page](/public/assets/app-screenshots/main.jpg)
 
-![Delete photo](/public/assets/app-screenshots/delete-photo.jpg)
+#### 1. Main page
 
-![Empty page](/public/assets/app-screenshots/empty-page.jpg)
+<img src="./public/assets/app-screenshots/main2.jpg" width="300" />
 
-![Camera](/public/assets/app-screenshots/camera-open.jpg)
+#### 2. Delete image
 
-![Exit](/public/assets/app-screenshots/exit.jpg)
+<img src="./public/assets/app-screenshots/delete-photo.jpg" width="300" />
+
+#### 3. Main page with no images
+
+<img src="./public/assets/app-screenshots/empty-page.jpg" width="300" />
+
+#### 4. Camera
+
+<img src="./public/assets/app-screenshots/camera-open.jpg" width="300" />
+
+#### 5. Exit application
+
+<img src="./public/assets/app-screenshots/exit.jpg" width="300" />
+
