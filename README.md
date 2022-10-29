@@ -12,4 +12,4 @@ This is a photo taking application. You can do the following:
 
 This is a PWA (Progressive Web App) which can run both on android and iOS. 
 
-I have used Ionic and Capacitor framewords to build this app.
+I have used Ionic and Capacitor frameworks to build this app.

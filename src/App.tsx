@@ -34,9 +34,38 @@ import '@ionic/react/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 
-setupIonicReact();
+import React, { useEffect } from 'react';
+import { Plugins, Capacitor } from '@capacitor/core';
 
-const App: React.FC = () => (
+setupIonicReact({
+  hardwareBackButton: false
+});
+
+const App: React.FC = () => {
+  useEffect(() => {
+    if (Capacitor.isNative) {
+      Plugins.App.addListener('backButton', () => {
+        const yes = window.confirm('Exit from application?');
+        if (yes) {
+          Plugins.App.exitApp();
+        }
+        // if (window.location.pathname === '/') {
+        //   const yes = window.confirm('Exit app?');
+        //   if (yes) {
+        //     Plugins.App.exitApp();
+        //   }
+        // } else {
+        //   const path = window.location.pathname;
+        //   const yes = window.confirm('Exit from ' + path + '?');
+        //   if (yes) {
+        //     Plugins.App.exitApp();
+        //   }
+        // }
+      })
+    }
+  }, [])
+
+  return (
   <IonApp>
     <IonReactRouter>
       <IonTabs>
@@ -73,6 +102,7 @@ const App: React.FC = () => (
       </IonTabs>
     </IonReactRouter>
   </IonApp>
-);
+  )
+};
 
 export default App;
